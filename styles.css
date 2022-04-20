@@ -3,7 +3,8 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  /* background-color:#444; */
+  background-image: url("/dancerImg/danceFloorBackground.png");
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -12,7 +13,7 @@ body, a:link, a:visited, a:active{
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
-}
+}c
 .topbar{
   height:32px;
   background-color: #555;
@@ -21,7 +22,21 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.regularDancer{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
+
+.moonDancer{
+  position:absolute;
+}
+
+.rickRollDancer{
+  position:absolute;
+}
+

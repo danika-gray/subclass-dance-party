@@ -2,8 +2,12 @@
 // var makeDancer = function(top, left, timeBetweenSteps) {
 var makeDancer = function(top, left, timeBetweenSteps) {
 
-  this.$node = $('<span class="dancer"></span>');
+  this.$node = $('<span class="dancer"></span>'); // does this show up on the DOM?
+
+  // this.$node = $('<img src="moonDancer.png" class="dancer"></img>');
+
   this.timeBetweenSteps = timeBetweenSteps;
+
 
   this.step();
   this.setPosition(top, left);
@@ -28,3 +32,4 @@ makeDancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 
 };
+
